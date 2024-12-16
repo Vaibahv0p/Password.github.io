@@ -1,1 +1,189 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('your-background-image.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #000;
+}
 
+h1, h2, p {
+  color: #000;
+}
+
+nav {
+  background: rgba(0, 123, 255, 0.7);
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Home Section */
+#home {
+  background: rgba(0, 123, 255, 0.7);
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 40px;
+}
+
+#home p {
+  font-size: 20px;
+}
+
+/* Password Generator Section */
+#generator {
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+button, select, input[type="text"], label {
+  margin: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+input[type="text"] {
+  width: 80%;
+  font-weight: bold;
+  text-align: center;
+}
+
+#password-display {
+  margin-top: 20px;
+}
+
+#copy-password-btn {
+  background: #28a745;
+  border: none;
+  cursor: pointer;
+}
+
+#copy-password-btn:hover {
+  background: #218838;
+}
+
+#password-strength {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.options label {
+  font-size: 18px;
+  margin: 0 8px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+#password-strength-value {
+  font-weight: bold;
+  color: #333;
+}
+
+/* About Section */
+#about {
+  padding: 20px 10px;
+  text-align: center;
+  background: rgba(240, 240, 240, 0.8);
+}
+
+#about h2 {
+  font-size: 30px;
+}
+
+#about p {
+  font-size: 18px;
+}
+
+/* Context Section */
+#context {
+  padding: 20px 10px;
+  text-align: center;
+  background: rgba(0, 123, 255, 0.7);
+  color: white;
+}
+
+#context h2 {
+  font-size: 30px;
+}
+
+#context p {
+  font-size: 18px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 20px 10px;
+  text-align: center;
+  background: rgba(0, 123, 255, 0.7);
+  color: white;
+}
+
+#contact h2 {
+  font-size: 30px;
+}
+
+#contact a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
