@@ -1,1 +1,73 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#generator">Password Generator</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#context">Context</a></li>
+    </ul>
+  </nav>
+  <!-- Home Section -->
+  <section id="home">
+    <div class="container">
+      <h1>Welcome to Password Generator</h1>
+      <p>Generate strong passwords with ease by adjusting the strength slider.</p>
+    </div>
+  </section>
+  <!-- Password Generator Section -->
+  <section id="generator">
+    <div class="container">
+      <h2>Password Generator</h2>
+      <!-- Slider to set password strength -->
+      <label for="password-strength">Password Strength:</label>
+      <input type="range" id="password-strength" min="8" max="20" value="12">
+      <span id="password-strength-value">12</span> characters
+      <!-- Character Options -->
+      <div class="options">
+        <label><input type="checkbox" id="include-lowercase"></label>
+        <label><input type="checkbox" id="include-uppercase"> A</label>
+        <label><input type="checkbox" id="include-numbers"> 1</label>
+        <label><input type="checkbox" id="include-special"> @</label>
+      </div>
+      <!-- Buttons -->
+      <div class="button-container">
+        <button id="generate-password-btn">Generate Password</button>
+        <button id="copy-password-btn">Copy Password</button>
+      </div>
+      <!-- Password Display -->
+      <input type="text" id="password-display" readonly placeholder="Your password will appear here">
+    </div>
+  </section>
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About This Website</h2>
+      <p>This password generator helps you create secure and customized passwords based on your desired criteria.</p>
+    </div>
+  </section>
+  <!-- Context Section -->
+  <section id="context">
+    <div class="container">
+      <h2>Context</h2>
+      <p>Creating strong passwords is essential for online security. This generator allows you to customize the password based on your needs, ensuring you use strong and unique passwords for all your accounts.</p>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>If you have any questions, feel free to <a href="mailto:contact@example.com">email us</a>.</p>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
